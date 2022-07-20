@@ -4,7 +4,7 @@ const hbs = require('hbs');
 const path = require('path');
 const port=process.env.PORT || 3000; 
 
-
+ 
 const publicPath=path.join(__dirname,"../public");
 const templatePath=path.join(__dirname,"../templates/views");
 const partials_Path=path.join(__dirname,"../templates/partials");
